@@ -15,9 +15,34 @@ html{
   ul {
     list-style-type: none;
   }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+  }
   
-  .fa-thumbs-up, .fa-thumbs-down, .fa-trash{
-    color: #cb2824
+  .button-container {
+    display:flex;
+    margin-left:auto;
+  }
+  .fa-thumbs-up{
+    color: green;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left:auto;
+    /* background-color: black;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;  */
+  } .fa-thumbs-down{
+    color: #cb2824;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left:auto;
+    /* background:black */
   }
   
   .fa-trash{
@@ -28,7 +53,18 @@ html{
     color:white;
   }
   
-  
+  li span:first-child{
+    font-weight: bold;
+    color: #cb2824;
+  }
+
+  li span:nth-child(3) {  
+    color: #cb2824;
+  }
+
+  li span:nth-child(5) {  
+    color: green;
+  }
   
   h1{
     font-size: 3.5rem;
@@ -160,6 +196,16 @@ html{
   
     #mainform{
       margin-bottom:60px !important;
+    }
+
+    .upvote-btn {
+        background-color: black !important;
+        color:green !important
+    }
+    
+    .downvote-btn {
+        background-color: black !important;
+        color:red !important
     }
   }
   
