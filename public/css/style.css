@@ -1,0 +1,209 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+html{
+    font-size: 20px;
+  }
+  body{
+    font-family: "Jersey 15", sans-serif;
+    background-color: #ce232a;
+    background-color: #ce232a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='46' viewBox='0 0 70 46'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23030009' fill-opacity='0.57'%3E%3Cpolygon points='68 44 62 44 62 46 56 46 56 44 52 44 52 46 46 46 46 44 40 44 40 46 38 46 38 44 32 44 32 46 26 46 26 44 22 44 22 46 16 46 16 44 12 44 12 46 6 46 6 44 0 44 0 42 8 42 8 28 6 28 6 0 12 0 12 28 10 28 10 42 18 42 18 28 16 28 16 0 22 0 22 28 20 28 20 42 28 42 28 28 26 28 26 0 32 0 32 28 30 28 30 42 38 42 38 0 40 0 40 42 48 42 48 28 46 28 46 0 52 0 52 28 50 28 50 42 58 42 58 28 56 28 56 0 62 0 62 28 60 28 60 42 68 42 68 0 70 0 70 46 68 46'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .fa-thumbs-up, .fa-thumbs-down, .fa-trash{
+    color: #cb2824
+  }
+  
+  .fa-trash{
+    color: rgba(22,22,22,255)
+  }
+  
+  h1,h2{
+    color:white;
+  }
+  
+  
+  
+  h1{
+    font-size: 3.5rem;
+    margin:10px !important;
+  }
+  
+  ul{
+    color:rgb(181,181,181)
+  }
+  
+  #place{
+    color:#cb2824
+  }
+  
+  #songtitle{
+    color:white;
+  }
+  
+  span{
+    margin: 5px;
+  }
+  
+  #foundsound{
+    height:60px;
+    padding-right:20px;
+    vertical-align: middle;
+  }
+  
+  /* Box Model Hack */
+  *{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  #maincontainer{
+    width:50%;
+    padding:10px;
+    padding-bottom:60px;
+    margin: 0 auto ;
+    text-align: center;
+    background-color: rgba(22,22,22,255);
+    border-radius: 3px;
+  }
+  
+  #mainh1{
+    color:white;
+    vertical-align: middle;
+    margin-top:45px !important;
+  }
+  
+  ul{
+    text-align: left;
+    width:75%;
+    margin: 0 auto;
+  }
+  #addsongheader{
+    font-size: 2rem;
+    margin-top:80px !important;
+    color:#cb2824;
+    margin-top: 50px;
+    margin-bottom:10px !important;
+  }
+  
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  form{
+    margin-bottom:60px !important;
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  .nav {
+    padding:10px;
+    text-align: center;
+    width:75%;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:80px;
+    background-color: rgba(56,0,0,255);
+  }
+  
+  @media (max-width: 575.98px){
+    h1{
+      font-size: 20px;
+    }
+  
+    h2{
+      font-size:10px;
+    }
+  
+    .nav{
+      margin-bottom:10px;
+    }
+  
+    #foundsound{
+      height: 40px;
+      padding-right:10px;
+    }
+  
+    #maincontainer{
+      width:90%;
+      margin-top:20px;
+      padding:4px;
+    }
+  
+    #mainh1{
+      margin:5px;
+      margin-top:20px !important;
+    }
+  
+    #addsongheader{
+      margin-top:50px !important;
+      font-size: 20px;
+    }
+    
+    ul{
+      font-size: 14px;
+      width:100%;
+      margin-bottom: 30px;
+      padding-left:4px;
+    }
+  
+    #mainform{
+      margin-bottom:60px !important;
+    }
+  }
+  
+  
+  @media (min-width: 576px) and (max-width: 1024px) {
+    h1{
+      font-size: 40px;
+    }
+  
+    .nav{
+      margin-bottom:10px;
+    }
+  
+    #foundsound{
+      height: 40px;
+      padding-right:10px;
+    }
+  
+    #maincontainer{
+      width:90%;
+      margin-top:20px;
+      padding:4px;
+    }
+  
+    #mainh1{
+      margin:5px;
+      margin-top:20px !important;
+    }
+  
+    #addsongheader{
+      margin-top:50px !important;
+      font-size: 40px;
+    }
+    
+    ul{
+      text-align: center;
+      font-size: 25px;
+      width:100%;
+      margin-bottom: 30px;
+      padding-left:4px;
+    }
+  
+    #mainform{
+      margin-bottom:60px !important;
+    }
+  }
+  

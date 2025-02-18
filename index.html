@@ -13,7 +13,34 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div id="app"></div>
+    <nav class="nav">
+      <h1><img src='/images/foundsound.jpg' alt="foundsound logo" id="foundsound">FoundSound Top 40</h1>
+  </nav>
+
+  <div id="maincontainer">
+      
+      <h1 id="mainh1"><img src='/images/foundsound.jpg' alt="foundsound logo" id="foundsound">Top Songs</h1>
+      <h2 id="addsongheader">Add a Song:</h2>
+
+      <form action="/addArtist" method="POST" id="mainform">
+          <input type="text" placeholder="Artist Name" name="artistName">
+          <input type="text" placeholder="Song Name" name="songName">
+          <input type="submit">
+      </form>
+      <ul class="artists">
+          <li class="artist">
+              <span id="place"></span>
+              <span id="artistname"></span>
+              <span id="songtitle"></span>
+              <span id="likes"></span>
+              <span class='fa fa-thumbs-up'></span>
+              <span class='fa fa-thumbs-down'></span>
+              <span class='fa fa-trash'></span>
+              
+          </li>
+      </ul>
+
+  </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
