@@ -117,11 +117,36 @@ html{
     background-color: rgba(22,22,22,255);
     border-radius: 3px;
   }
+
+  #instructions{
+    width:70%;
+    padding:4px;
+    padding-bottom: 25px;
+    margin: 0 auto ;
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.795);
+    border: 2px solid #cb2824;
+    border-radius: 3px;
+  }
+  #h2Instructions{
+    color:#cb2824;
+    font-weight:bold;
+  }
+
+  .h3Instructions{
+    padding: 0 !important;
+    margin: 5px !important;
+    text-align: left;
+    margin-left:40px !important;
+
+  }
   
   #mainh1{
     color:white;
     vertical-align: middle;
-    margin-top:45px !important;
+    margin-top:30px !important;
+    margin-bottom:60px !important;
   }
   
   ul{
@@ -131,7 +156,7 @@ html{
   }
   #addsongheader{
     font-size: 2rem;
-    margin-top:80px !important;
+    margin-top:60px !important;
     color:#cb2824;
     margin-top: 50px;
     margin-bottom:10px !important;
