@@ -261,7 +261,8 @@ html{
 
     #instructions{
       width:70%;
-      padding:2px;
+      /* padding:2px; */
+      padding-left: 2px !important;
       padding-bottom: 25px;
       margin: 0 auto ;
       margin-top: 10px !important;
@@ -276,14 +277,14 @@ html{
       /* color:black; */
       /* color:green; */
       font-weight:bold;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   
     .h3Instructions{
       padding: 0 !important;
       margin: 5px !important;
-      text-align: left;
-      margin-left:40px !important;
+      text-align: center;
+      /* margin-left:20px !important; */
       font-size: 0.75rem;
       font-weight: 400;
       text-shadow:1px 1px 1px #cb2824;
